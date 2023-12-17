@@ -16,13 +16,26 @@
 .sidebar {
     grid-column: 1;
     grid-row: 1 / 3;
-    background-color: lightblue;
+    background-color: rgb(10, 144, 233);
+    color: white;
 }
 .header {
     grid-column: 2;
     grid-row: 1;
+    display: grid;
+    grid-template-rows: 40% 60%;
    
 }
+.navigation {
+    display: flex;
+    grid-row: 1/2;
+    gap: 10px;
+}
+.utilitybar {
+    display: flex;
+    gap: 10px;
+}
+
 .main {
     grid-column: 2;
     grid-row: 2;
