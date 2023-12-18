@@ -1,6 +1,8 @@
 :root {
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
+
 
 .sidebar-links ul {
     list-style: none;
@@ -9,6 +11,7 @@
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
+    height: 100vh;
 }
 .wrapper > div {
     border: 1px solid black;
