@@ -1,4 +1,5 @@
 # Admin-Dashboard
-Part of the Odin project
+Derek Chun
 
-Developed using html css and js
+Part of the Odin project
+Mock Dashboard design developed using html and css
